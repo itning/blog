@@ -1,0 +1,111 @@
+baseURL = "https://blog.itning.top/"
+languageCode = "zh-cn"
+title = "itning"
+enableRobotsTXT = true
+enableEmoji = true
+theme = "jane"
+# 首页每页显示的文章数
+paginate = 3
+# 高亮显示选项。
+defaultContentLanguage = "zh-cn"
+# 使用GitHub风格的代码围栏启用语法突出显示
+PygmentsCodeFences = true
+# 使用CSS类格式化突出显示的代码
+PygmentsUseClasses = true
+PygmentsCodefencesGuessSyntax = true
+PygmentsOptions = "linenos=table"
+[permalinks]
+  post = "/:sections/:year/:month/:day/:slug"
+[languages.zh-cn]
+  languageCode = "zh-cn"
+# 必需
+[author]
+  name = "itning"
+# 必需
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+# 配置目录
+[[menu.main]]
+  name = "主页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "归档"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "标签"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "分类"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
+[[menu.main]]
+  name = "GitHub"
+  weight = 50
+  url = "https://github.com/itning"
+  
+[params]
+  # 站点建立时间
+  since = "2016"
+  # 如果为false，则在主页上显示帖子摘要。否则，显示全部内容
+  homeFullContent = true
+  # 如果为false，则使用Rss feed而不是摘要
+  rssFullContent = true
+
+  # 站点信息（可选，不需要的可以直接注释掉）
+  # 默认值: 上面设置的title值
+  logoTitle = "itning"
+  keywords = ["itning", "我们始终是路人", "blog", "java"]
+  description = "itning blog."
+  # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
+  archive-paginate = 20
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006年01月02日 15:04:05"
+  customFooter = "黑ICP备17003448号"
+  # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
+  # 是否开启目录
+  toc = true
+  # see https://github.com/dimsemenov/PhotoSwipe
+  # 是否启用PhotoSwipe（图片可点击）
+  photoswipe = true
+  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  # if ['custom.css'], load '/static/css/custom.css' file
+  customCSS = []
+  # if ['custom.js'], load '/static/js/custom.js' file
+  customJS = []
+  # 是否显示字数统计与阅读时间
+  moreMeta = true
+  # google custom search, see https://cse.google.com
+  [params.search.google]
+    enable = false
+    id = "002186711602136249422:q1gkomof_em"
+    title = "Search"
+  # 社交链接
+  [params.social]
+    a-email = "mailto:itning@itning.top"
+    g-github = "http://github.com/itning"
+  # 不蒜子计数器
+  [params.counter.busuanzi]
+    enable = true
+  # 启用公共CDN，需自行定义
+  [params.publicCDN]
+    enable = true
+    jquery = '<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>'
+    slideout = '<script src="https://cdn.bootcss.com/slideout/1.0.1/slideout.min.js"></script>'
+    gitmentJS = '<script src="https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.min.js" crossorigin="anonymous"></script>'
+    gitmentCSS = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.min.css" crossorigin="anonymous">'
+    photoswipe = '<script src="https://cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>'
+    photoswipeUI = '<script src="https://cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>'
+    photoswipeCSS = '<link href="https://cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css" rel="stylesheet">'
+    photoswipeSKIN = '<link href="https://cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css" rel="stylesheet">'
