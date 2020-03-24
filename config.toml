@@ -98,6 +98,11 @@ PygmentsOptions = "linenos=table"
   # 不蒜子计数器
   [params.counter.busuanzi]
     enable = true
+  # utteranc is a comment system based on GitHub issues. see https://utteranc.es
+  [params.utteranc]
+    enable = true
+    repo = "itning/blog"
+    issueTerm = "pathname"
   # 启用公共CDN，需自行定义
   [params.publicCDN]
     enable = true
