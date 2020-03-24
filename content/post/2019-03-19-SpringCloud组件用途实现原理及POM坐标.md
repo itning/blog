@@ -13,7 +13,7 @@ draft: false
 >---[https://spring.io/projects/spring-cloud](https://spring.io/projects/spring-cloud)
 
 Spring Cloud POM 例子
-
+<!--more-->
 ```xml
 <properties>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>

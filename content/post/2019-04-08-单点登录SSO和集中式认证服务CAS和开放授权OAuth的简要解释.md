@@ -17,7 +17,7 @@ draft: false
 单点登陆包含 单点登陆 单点登出
 
 可以看下单点登陆图解：
-
+<!--more-->
 ![单点登陆图解](/images/2019-04-08-单点登录SSO和集中式认证服务CAS和开放授权OAuth的简要解释/dandiandenglu.png)
 
 [单点登录原理与简单实现](https://www.cnblogs.com/ywlaker/p/6113927.html)

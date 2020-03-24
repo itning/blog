@@ -10,10 +10,8 @@ draft: false
 
 ![linearlayout1](/images/2018-07-24-Android控件-Material-Design控件/linearlayout1.png)
 
-
-
 [Google官方教程](https://developer.android.com/guide/topics/ui/layout/linear?hl=zh-cn)
-
+<!--more-->
 [android布局------LinearLayout(线性布局)详解](https://blog.csdn.net/u014450015/article/details/50178415)
 
 [Android布局-LinearLayout属性详解](https://www.jianshu.com/p/e6835ed20d9a)

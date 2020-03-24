@@ -20,7 +20,7 @@ draft: false
 */
 String name() default "";
 ```
-
+<!--more-->
 ### @Table
 
 ```java

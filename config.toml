@@ -5,7 +5,7 @@ enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
 # 首页每页显示的文章数
-paginate = 3
+paginate = 5
 # 高亮显示选项。
 defaultContentLanguage = "zh-cn"
 # 使用GitHub风格的代码围栏启用语法突出显示
@@ -56,7 +56,7 @@ PygmentsOptions = "linenos=table"
   # 站点建立时间
   since = "2016"
   # 如果为false，则在主页上显示帖子摘要。否则，显示全部内容
-  homeFullContent = true
+  homeFullContent = false
   # 如果为false，则使用Rss feed而不是摘要
   rssFullContent = true
 

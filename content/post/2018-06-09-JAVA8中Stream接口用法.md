@@ -10,7 +10,7 @@ draft: false
 JAVA8 中所有Stream接口
 
 ![a](/images/2018-06-09-JAVA8中Stream接口用法/a.png)
-
+<!--more-->
 ## count
 
 返回Stream中元素的数量
