@@ -4,3 +4,4 @@ cd ./public
 git add .
 git commit -m "NEW-POST-%NOW_TIME%"
 git push origin master
+cd ..
