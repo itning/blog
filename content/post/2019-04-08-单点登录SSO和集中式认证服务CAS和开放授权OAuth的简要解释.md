@@ -126,7 +126,7 @@ CAS实现：<https://www.apereo.org/projects/cas>
 
    访问后浏览器会返回一个授权页面:
 
-   {% asset_img diyibu.png 授权页面 %}
+   ![授权页面](/images/2019-04-08-单点登录SSO和集中式认证服务CAS和开放授权OAuth的简要解释/diyibu.png)
 
    我们授权后浏览器会重定向到如下地址:
 

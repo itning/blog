@@ -70,15 +70,12 @@ draft: false
 
 ## BottomSheet(底部操作控件 )
 
-{% asset_img BottomSheet.gif BottomSheet %}
 ![BottomSheet](/images/2018-07-24-Android控件-Material-Design控件/BottomSheet.gif)
-
 
 
 [BottomSheet、BottomSheetDialog使用详解](https://www.jianshu.com/p/0a7383e0ad0f)
 
 [Material Design 控件知识梳理(3) - BottomSheet && BottomSheetDialog && BottomSheetDialogFragment](https://www.jianshu.com/p/2a5be29123e5)
-
 
 
 ## BottomSheetDialog
