@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>秋招 on itning</title><link>https://blog.itning.top/tags/%E7%A7%8B%E6%8B%9B/</link><description>Recent content in 秋招 on itning</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 02 Dec 2019 16:33:56 +0800</lastBuildDate><atom:link href="https://blog.itning.top/tags/%E7%A7%8B%E6%8B%9B/index.xml" rel="self" type="application/rss+xml"/><item><title>我的秋招面试问题集</title><link>https://blog.itning.top/post/2019/12/02/%E6%88%91%E7%9A%84%E7%A7%8B%E6%8B%9B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E9%9B%86/</link><pubDate>Mon, 02 Dec 2019 16:33:56 +0800</pubDate><guid>https://blog.itning.top/post/2019/12/02/%E6%88%91%E7%9A%84%E7%A7%8B%E6%8B%9B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E9%9B%86/</guid><description>&lt;h2 id="第一家">第一家&lt;/h2>
+&lt;ol>
+&lt;li>说说你怎么理解threadlocal的？&lt;/li>
+&lt;li>ReentrantLock原理？&lt;/li>
+&lt;li>[1，2，3，4，4，5] 数组找出4所在的所有下标？&lt;/li>
+&lt;/ol></description></item></channel></rss>

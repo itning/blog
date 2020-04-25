@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JAVA on itning</title><link>https://blog.itning.top/tags/java/</link><description>Recent content in JAVA on itning</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 26 Mar 2020 12:36:32 +0800</lastBuildDate><atom:link href="https://blog.itning.top/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>JPA级联操作</title><link>https://blog.itning.top/post/2020/03/26/jpa%E7%BA%A7%E8%81%94%E6%93%8D%E4%BD%9C/</link><pubDate>Thu, 26 Mar 2020 12:36:32 +0800</pubDate><guid>https://blog.itning.top/post/2020/03/26/jpa%E7%BA%A7%E8%81%94%E6%93%8D%E4%BD%9C/</guid><description>&lt;h2 id="级联操作有哪些">级联操作有哪些？&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="kn">package&lt;/span> &lt;span class="nn">javax.persistence&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;span class="kd">public&lt;/span> &lt;span class="kd">enum&lt;/span> &lt;span class="n">CascadeType&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;span class="cm">/** Cascade all operations */&lt;/span>
+&lt;span class="n">ALL&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;span class="cm">/** Cascade persist operation */&lt;/span>
+&lt;span class="n">PERSIST&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;span class="cm">/** Cascade merge operation */&lt;/span>
+&lt;span class="n">MERGE&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;span class="cm">/** Cascade remove operation */&lt;/span>
+&lt;span class="n">REMOVE&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;span class="cm">/** Cascade refresh operation */&lt;/span>
+&lt;span class="n">REFRESH&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;span class="cm">/**
+&lt;/span>&lt;span class="cm"> * Cascade detach operation
+&lt;/span>&lt;span class="cm"> *
+&lt;/span>&lt;span class="cm"> * @since 2.0
+&lt;/span>&lt;span class="cm"> *
+&lt;/span>&lt;span class="cm"> */&lt;/span>
+&lt;span class="n">DETACH&lt;/span>
+&lt;span class="o">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>HibernateDialect设置</title><link>https://blog.itning.top/post/2020/03/26/hibernatedialect%E8%AE%BE%E7%BD%AE/</link><pubDate>Thu, 26 Mar 2020 12:15:05 +0800</pubDate><guid>https://blog.itning.top/post/2020/03/26/hibernatedialect%E8%AE%BE%E7%BD%AE/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-yaml" data-lang="yaml">spring&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>jpa&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">database-platform&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>org.hibernate.dialect.MySQL8Dialect&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>或：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>常见限流算法 漏桶和令牌桶</title><link>https://blog.itning.top/post/2020/03/25/%E5%B8%B8%E8%A7%81%E9%99%90%E6%B5%81%E7%AE%97%E6%B3%95-%E6%BC%8F%E6%A1%B6%E5%92%8C%E4%BB%A4%E7%89%8C%E6%A1%B6/</link><pubDate>Wed, 25 Mar 2020 21:08:38 +0800</pubDate><guid>https://blog.itning.top/post/2020/03/25/%E5%B8%B8%E8%A7%81%E9%99%90%E6%B5%81%E7%AE%97%E6%B3%95-%E6%BC%8F%E6%A1%B6%E5%92%8C%E4%BB%A4%E7%89%8C%E6%A1%B6/</guid><description>&lt;h2 id="漏桶算法">漏桶算法&lt;/h2>
+&lt;p>漏桶(Leaky Bucket)算法思路很简单,水(请求)先进入到漏桶里,漏桶以一定的速度出水(接口有响应速率),当水流入速度过大会直接溢出(访问频率超过接口响应速率),然后就拒绝请求,可以看出漏桶算法能强行限制数据的传输速率&lt;/p>
+&lt;p>&lt;img src="https://blog.itning.top/images/20200325210400.png" alt="漏桶算法">&lt;/p></description></item><item><title>我的秋招面试问题集</title><link>https://blog.itning.top/post/2019/12/02/%E6%88%91%E7%9A%84%E7%A7%8B%E6%8B%9B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E9%9B%86/</link><pubDate>Mon, 02 Dec 2019 16:33:56 +0800</pubDate><guid>https://blog.itning.top/post/2019/12/02/%E6%88%91%E7%9A%84%E7%A7%8B%E6%8B%9B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E9%9B%86/</guid><description>&lt;h2 id="第一家">第一家&lt;/h2>
+&lt;ol>
+&lt;li>说说你怎么理解threadlocal的？&lt;/li>
+&lt;li>ReentrantLock原理？&lt;/li>
+&lt;li>[1，2，3，4，4，5] 数组找出4所在的所有下标？&lt;/li>
+&lt;/ol></description></item><item><title>Java生产环境下性能监控与调优详解</title><link>https://blog.itning.top/post/2019/04/23/java%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E4%B8%8E%E8%B0%83%E4%BC%98%E8%AF%A6%E8%A7%A3/</link><pubDate>Tue, 23 Apr 2019 11:36:10 +0800</pubDate><guid>https://blog.itning.top/post/2019/04/23/java%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E4%B8%8E%E8%B0%83%E4%BC%98%E8%AF%A6%E8%A7%A3/</guid><description>&lt;h2 id="基于jdk命令行工具的监控">基于JDK命令行工具的监控&lt;/h2>
+&lt;h3 id="x参数">X参数&lt;/h3>
+&lt;p>非标准化参数 有可能会变 但变化比较小&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>-Xint&lt;/p>
+&lt;p>解释执行&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>-Xcomp&lt;/p>
+&lt;p>第一次使用就编译成本地代码&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>-Xmixed&lt;/p>
+&lt;p>混合模式，JVM自己来决定是否编译成本地代码&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>常用消息中间件扫盲及面试题</title><link>https://blog.itning.top/post/2019/03/22/%E5%B8%B8%E7%94%A8%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6%E6%89%AB%E7%9B%B2%E5%8F%8A%E9%9D%A2%E8%AF%95%E9%A2%98/</link><pubDate>Fri, 22 Mar 2019 19:42:50 +0800</pubDate><guid>https://blog.itning.top/post/2019/03/22/%E5%B8%B8%E7%94%A8%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6%E6%89%AB%E7%9B%B2%E5%8F%8A%E9%9D%A2%E8%AF%95%E9%A2%98/</guid><description>&lt;p>写在前面：
+这篇文章是看&lt;code>Java工程师面试突击第1季（可能是史上最好的Java面试突击课程）-中华石杉老师&lt;/code>视频的一个总结，文章中第三方图片均归原作者所有。&lt;/p>
+&lt;h2 id="什么是消息队列">什么是消息队列？&lt;/h2>
+&lt;blockquote>
+&lt;p>在计算机科学中，消息队列（英语：Message queue）是一种进程间通信或同一进程的不同线程间的通信方式，软件的贮列用来处理一系列的输入，通常是来自用户。消息队列提供了异步的通信协议，每一个贮列中的纪录包含详细说明的数据，包含发生的时间，输入设备的种类，以及特定的输入参数，也就是说：消息的发送者和接收者不需要同时与消息队列交互。消息会保存在队列中，直到接收者取回它。&lt;/p>
+&lt;/blockquote>
+&lt;p>简单来说，消息队列是用来收发消息的。这里边的消息并不是单纯的指字符消息，也可以是一些字节序列等等。&lt;/p></description></item><item><title>JAVA8中Stream接口用法</title><link>https://blog.itning.top/post/2018/06/09/java8%E4%B8%ADstream%E6%8E%A5%E5%8F%A3%E7%94%A8%E6%B3%95/</link><pubDate>Sat, 09 Jun 2018 00:36:46 +0800</pubDate><guid>https://blog.itning.top/post/2018/06/09/java8%E4%B8%ADstream%E6%8E%A5%E5%8F%A3%E7%94%A8%E6%B3%95/</guid><description>&lt;p>JAVA8 中所有Stream接口&lt;/p>
+&lt;p>&lt;img src="https://blog.itning.top/images/2018-06-09-JAVA8%E4%B8%ADStream%E6%8E%A5%E5%8F%A3%E7%94%A8%E6%B3%95/a.png" alt="a">&lt;/p></description></item></channel></rss>
