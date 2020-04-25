@@ -4,6 +4,7 @@ title = "itning"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
+publishDir = "docs"
 # 首页每页显示的文章数
 paginate = 5
 # 高亮显示选项。
