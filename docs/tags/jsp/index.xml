@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JSP on itning</title><link>https://blog.itning.top/tags/jsp/</link><description>Recent content in JSP on itning</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 09 May 2018 07:53:15 +0800</lastBuildDate><atom:link href="https://blog.itning.top/tags/jsp/index.xml" rel="self" type="application/rss+xml"/><item><title>向值栈保存数据&amp;在JSP中获取值栈的数据</title><link>https://blog.itning.top/post/2018/05/09/%E5%90%91%E5%80%BC%E6%A0%88%E4%BF%9D%E5%AD%98%E6%95%B0%E6%8D%AE%E5%9C%A8jsp%E4%B8%AD%E8%8E%B7%E5%8F%96%E5%80%BC%E6%A0%88%E7%9A%84%E6%95%B0%E6%8D%AE/</link><pubDate>Wed, 09 May 2018 07:53:15 +0800</pubDate><guid>https://blog.itning.top/post/2018/05/09/%E5%90%91%E5%80%BC%E6%A0%88%E4%BF%9D%E5%AD%98%E6%95%B0%E6%8D%AE%E5%9C%A8jsp%E4%B8%AD%E8%8E%B7%E5%8F%96%E5%80%BC%E6%A0%88%E7%9A%84%E6%95%B0%E6%8D%AE/</guid><description>&lt;h4 id="向值栈保存数据root">向值栈保存数据(root)&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">ValueStack vs=ActionContext.getContext().getValueStack();
+push(Object obj)//底层就是 root.add(0,obj) 将数据存储到栈顶。
+set(String name,Object obj);
+/*底层是将数据封装到HashMap中，在将这个HashMap通过push存储。*/
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

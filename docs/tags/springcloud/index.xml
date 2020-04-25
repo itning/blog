@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SpringCloud on itning</title><link>https://blog.itning.top/tags/springcloud/</link><description>Recent content in SpringCloud on itning</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 19 Mar 2019 17:57:31 +0800</lastBuildDate><atom:link href="https://blog.itning.top/tags/springcloud/index.xml" rel="self" type="application/rss+xml"/><item><title>SpringCloud组件用途实现原理及POM坐标</title><link>https://blog.itning.top/post/2019/03/19/springcloud%E7%BB%84%E4%BB%B6%E7%94%A8%E9%80%94%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8Apom%E5%9D%90%E6%A0%87/</link><pubDate>Tue, 19 Mar 2019 17:57:31 +0800</pubDate><guid>https://blog.itning.top/post/2019/03/19/springcloud%E7%BB%84%E4%BB%B6%E7%94%A8%E9%80%94%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8Apom%E5%9D%90%E6%A0%87/</guid><description>&lt;h2 id="spring-cloud是什么">Spring Cloud是什么？&lt;/h2>
+&lt;blockquote>
+&lt;p>Spring Cloud为开发人员提供了快速构建分布式系统中一些常见模式的工具（例如配置管理，服务发现，断路器，智能路由，微代理，控制总线，一次性令牌，全局锁定，领导选举，分布式会话，集群状态）&lt;/p>
+&lt;p>&amp;mdash;&lt;a href="https://spring.io/projects/spring-cloud">https://spring.io/projects/spring-cloud&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>Spring Cloud POM 例子&lt;/p></description></item></channel></rss>

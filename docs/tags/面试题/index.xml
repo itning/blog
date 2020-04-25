@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>面试题 on itning</title><link>https://blog.itning.top/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/</link><description>Recent content in 面试题 on itning</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 25 Mar 2019 16:57:13 +0800</lastBuildDate><atom:link href="https://blog.itning.top/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/index.xml" rel="self" type="application/rss+xml"/><item><title>分布式搜索引擎Elasticsearch面试题及一些概念</title><link>https://blog.itning.top/post/2019/03/25/%E5%88%86%E5%B8%83%E5%BC%8F%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8Eelasticsearch%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%8A%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5/</link><pubDate>Mon, 25 Mar 2019 16:57:13 +0800</pubDate><guid>https://blog.itning.top/post/2019/03/25/%E5%88%86%E5%B8%83%E5%BC%8F%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8Eelasticsearch%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%8A%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5/</guid><description>&lt;h2 id="elasticsearch一些基本概念">Elasticsearch一些基本概念&lt;/h2>
+&lt;h3 id="索引index">索引(index)&lt;/h3>
+&lt;p>类似于关系数据库中的一张表&lt;/p>
+&lt;p>但是和表有本质区别&lt;/p></description></item><item><title>常用消息中间件扫盲及面试题</title><link>https://blog.itning.top/post/2019/03/22/%E5%B8%B8%E7%94%A8%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6%E6%89%AB%E7%9B%B2%E5%8F%8A%E9%9D%A2%E8%AF%95%E9%A2%98/</link><pubDate>Fri, 22 Mar 2019 19:42:50 +0800</pubDate><guid>https://blog.itning.top/post/2019/03/22/%E5%B8%B8%E7%94%A8%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6%E6%89%AB%E7%9B%B2%E5%8F%8A%E9%9D%A2%E8%AF%95%E9%A2%98/</guid><description>&lt;p>写在前面：
+这篇文章是看&lt;code>Java工程师面试突击第1季（可能是史上最好的Java面试突击课程）-中华石杉老师&lt;/code>视频的一个总结，文章中第三方图片均归原作者所有。&lt;/p>
+&lt;h2 id="什么是消息队列">什么是消息队列？&lt;/h2>
+&lt;blockquote>
+&lt;p>在计算机科学中，消息队列（英语：Message queue）是一种进程间通信或同一进程的不同线程间的通信方式，软件的贮列用来处理一系列的输入，通常是来自用户。消息队列提供了异步的通信协议，每一个贮列中的纪录包含详细说明的数据，包含发生的时间，输入设备的种类，以及特定的输入参数，也就是说：消息的发送者和接收者不需要同时与消息队列交互。消息会保存在队列中，直到接收者取回它。&lt;/p>
+&lt;/blockquote>
+&lt;p>简单来说，消息队列是用来收发消息的。这里边的消息并不是单纯的指字符消息，也可以是一些字节序列等等。&lt;/p></description></item></channel></rss>
