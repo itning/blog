@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>大数据 on itning</title><link>https://blog.itning.top/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</link><description>Recent content in 大数据 on itning</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 23 May 2018 10:03:28 +0800</lastBuildDate><atom:link href="https://blog.itning.top/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>客户端向HDFS写数据的流程</title><link>https://blog.itning.top/post/2018/05/23/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%91hdfs%E5%86%99%E6%95%B0%E6%8D%AE%E7%9A%84%E6%B5%81%E7%A8%8B/</link><pubDate>Wed, 23 May 2018 10:03:28 +0800</pubDate><guid>https://blog.itning.top/post/2018/05/23/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%91hdfs%E5%86%99%E6%95%B0%E6%8D%AE%E7%9A%84%E6%B5%81%E7%A8%8B/</guid><description>&lt;h2 id="hdfs集群分为两大角色">HDFS集群分为两大角色:&lt;/h2>
-&lt;p>NameNode DataNode (Secondary NameNode)&lt;/p>
-&lt;p>NameNode负责管理集群的元数据&lt;/p>
-&lt;p>DataNode负责管理用户的文件数据块&lt;/p>
-&lt;p>文件会按照固定的大小（blocksize）切成若干块后分布式存储在若干台datanode上&lt;/p>
-&lt;p>每一个文件块可以有多个副本，并存放在不同的datanode上&lt;/p></description></item></channel></rss>
