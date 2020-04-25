@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AngularJS on itning</title><link>https://blog.itning.top/tags/angularjs/</link><description>Recent content in AngularJS on itning</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 02 May 2018 18:09:14 +0800</lastBuildDate><atom:link href="https://blog.itning.top/tags/angularjs/index.xml" rel="self" type="application/rss+xml"/><item><title>学习笔记（3）-指令（Directive)</title><link>https://blog.itning.top/post/2018/05/02/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03-%E6%8C%87%E4%BB%A4directive/</link><pubDate>Wed, 02 May 2018 18:09:14 +0800</pubDate><guid>https://blog.itning.top/post/2018/05/02/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03-%E6%8C%87%E4%BB%A4directive/</guid><description>&lt;h2 id="指令directive">指令（Directive）&lt;/h2>
-&lt;blockquote>
-&lt;p>AngularJS 有一套完整的、可扩展的、用来帮助 Web 应用开发的指令集
-在 DOM 编译期间，和 HTML 关联着的指令会被检测到，并且被执行
-在 AngularJS 中将前缀为 ng- 这种属性称之为指令，其作用就是为 DOM 元素调用方法、定义行为绑定数据等
-简单说：当一个 Angular 应用启动，Angular 就会遍历 DOM 树来解析 HTML，根据指令不同，完成不同操作
-HTML5 允许扩展的（自制的）属性，以 data- 开头。
-AngularJS 属性以 ng- 开头，但是可以使用 data-ng- 来让网页对 HTML5 有效。&lt;/p>
-&lt;/blockquote></description></item></channel></rss>
