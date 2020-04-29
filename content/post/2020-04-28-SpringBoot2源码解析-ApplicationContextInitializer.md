@@ -35,7 +35,7 @@ public class FirstApplicationContextInitializer implements ApplicationContextIni
 
 1. 关键代码：`springApplication.addInitializers(new FirstApplicationContextInitializer());`
    
-   ```java
+    ```java
    import org.springframework.boot.SpringApplication;
    import org.springframework.boot.autoconfigure.SpringBootApplication;
    import top.itning.springboottest.config.FirstApplicationContextInitializer;
@@ -52,16 +52,14 @@ public class FirstApplicationContextInitializer implements ApplicationContextIni
            springApplication.run(args);
        }
    }
-```
-   
-2. 只需要在应用配置文件中`application.yml`配置：`context.initializer.classes=xxx.xxx.xxx.XX`
+    ```
 
-   ```yml
+2. 只需要在应用配置文件中`application.yml`配置：`context.initializer.classes=xxx.xxx.xxx.XX`
+    ```yml
    context:
      initializer:
        classes: xxx.xxx.xxx.XX
-   ```
-
+    ```
 3. `resources`目录新建`META-INF`文件夹并且新建文件：`spring.factories`
 
    ```properties
