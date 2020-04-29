@@ -28,7 +28,7 @@ public class FirstApplicationContextInitializer implements ApplicationContextIni
     }
 }
 ```
-
+<!--more-->
 实现`ApplicationContextInitializer`接口即可，并且必须是`ConfigurableApplicationContext`子类
 
 如何使其生效？三种方式：
