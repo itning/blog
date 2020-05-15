@@ -88,7 +88,7 @@ PygmentsOptions = "linenos=table"
   moreMeta = true
   # google custom search, see https://cse.google.com
   [params.search.google]
-    enable = false
+    enable = true
     id = "002186711602136249422:q1gkomof_em"
     title = "Search"
   # 社交链接
