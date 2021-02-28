@@ -1,7 +1,7 @@
-# This workflow will build a Java project with Maven and create release
+# This workflow will build a project with Hugo and public Tencent COS
 # author: https://github.com/itning
 
-name: Java CI with Maven
+name: Auto Build
 
 on:
   push:
@@ -20,3 +20,11 @@ jobs:
       uses: chabad360/hugo-actions@master
       with:
         args: --minify
+    - name: Upload COS
+      uses: zkqiang/tencent-cos-action@v0.1.0
+      with:
+        args: delete -r -f / && upload -r ./public/ /
+        secret_id: ${{ secrets.SECRET_ID }}
+        secret_key: ${{ secrets.SECRET_KEY }}
+        bucket: ${{ secrets.BUCKET }}
+        region: ap-beijing
